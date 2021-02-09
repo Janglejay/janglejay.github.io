@@ -1,0 +1,74 @@
+# Basic
+title: 傅芳杰
+subtitle: 个人博客
+description: You Deserve The Best
+# 头像里面的标题
+avatarTitle: Janglejay
+# 头像里面的描述
+avatarDesc: IT
+url: "https://www.janglejay.com"
+
+# Comment
+comment:
+    disqus: janglejay
+    # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    # weibo: 5366874726
+    github: janglejay
+    # zhihu: panpanleopard
+    # juejin: xxx
+    # jianshu: 2ada30d8d0f7
+    # twitter:
+    # mail: 1578528245@qq.com
+
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+baidu:
+    id: b813fd024c7659c5d3e187fd52e3f6d6
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+#ga:
+#    id: xxxx
+#    host: auto
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog Home
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: All Article, description: archive, url: '/archive'}
+    - {title: Tags, description: tags, url: '/tags'}
+    - {title: About Me, description: about, url: '/about'}
+
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
