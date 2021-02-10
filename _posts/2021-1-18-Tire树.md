@@ -21,7 +21,7 @@ insert \ find 方法
 insert 一个字符串
 ```
 
-[![ywpuh8.png](https://s3.ax1x.com/2021/02/10/ywpuh8.png)](https://imgchr.com/i/ywpuh8)
+![ywpuh8.png](https://s3.ax1x.com/2021/02/10/ywpuh8.png)
 
 ## 如何查找？
 
