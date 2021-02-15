@@ -19,7 +19,7 @@ tag: 动态规划
 
 # 最短编辑距离
 
-![y6oG5T.png](https://s3.ax1x.com/2021/02/15/y6oG5T.png)
+![y6ojLn.md.png](https://s3.ax1x.com/2021/02/15/y6ojLn.md.png)
 
 ## AcWing 898. 数字三角形   [原题链接](https://www.acwing.com/problem/content/900/)
 
