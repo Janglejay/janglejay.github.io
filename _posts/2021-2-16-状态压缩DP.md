@@ -61,6 +61,49 @@ tag: 动态规划
 
 ![yguYee.png](https://s3.ax1x.com/2021/02/16/yguYee.png)
 
+```java
+    public static void main(String[] args) {
+        int n;
+        int m;
+        long[][] dp;
+        boolean[] st;
+        while ((n = in.nextInt()) != 0 && (m = in.nextInt()) != 0) {
+            dp = new long[m + 1][1 << n];
+            st = new boolean[1 << n];
+            for (int i = 0; i < (1 << n); i++) {
+                int count = 0;
+                boolean isValid = true;
+                for (int j = 0; j < n; j++) {
+                    if (((i >> j) & 1) == 1) {
+                        if ((count & 1) == 1) {
+                            isValid = false;
+                            break;
+                        }
+                        count = 0;
+                    }else {
+                        count++;
+                    }
+                }
+                if ((count & 1) == 1) isValid = false;
+                st[i] = isValid;
+            }
+            dp[0][0] = 1;
+            for (int i = 1; i <= m; i++) {
+                for (int j = 0; j < (1 << n); j++) {
+                    for (int k = 0; k < (1 << n); k++) {
+                        if ((j & k) == 0 && st[j | k]) {
+                            dp[i][j] += dp[i - 1][k];
+                        }
+                    }
+                }
+            }
+            out.println(dp[m][0]);
+        }
+        out.flush();
+        out.close();
+    }
+```
+
 ## AcWing 91. 最短Hamilton路径   [原题链接](https://www.acwing.com/problem/content/93/)
 
 给定一张 nn 个点的带权无向图，点从 0~n-1 标号，求起点 0 到终点 n-1 的最短Hamilton路径。 Hamilton路径的定义是从 0 到 n-1 不重不漏地经过每个点恰好一次。
