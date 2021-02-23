@@ -14,7 +14,7 @@ tag: 动态规划
 
 # 最长公共子序列
 
-![y6oYPU.png](https://s3.ax1x.com/2021/02/15/y6oYPU.png)
+![y7p3IH.md.png](https://s3.ax1x.com/2021/02/22/y7p3IH.md.png)
 
 
 # 最短编辑距离
