@@ -4,6 +4,7 @@ titile: Vim
 tags: 
 - Vim
 - test
+date: 2023-4-16
 ---
 
 > my vim config git repository
