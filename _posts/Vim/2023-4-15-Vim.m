@@ -1,6 +1,4 @@
 ---
-layout: post 
-titile: Vim
 tags: 
 - Vim
 - test
