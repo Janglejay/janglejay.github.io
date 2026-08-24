@@ -1,0 +1,24 @@
+{
+  "id": "freepats-fss-steel-string-guitar-small-20200521",
+  "source": {
+    "name": "FreePats FSS Steel-String Acoustic Guitar (small SFZ)",
+    "url": "https://freepats.zenvoid.org/Guitar/FSS-SteelStringGuitar/FSS-SteelStringGuitar-small-SFZ-20200521.tar.xz",
+    "version": "2020-05-21",
+    "license": "GPL-3.0-or-later with FreePats composition special exception; see NOTICE.md"
+  },
+  "entries": [
+    { "id": "freepats-e2", "url": "/audio/guitar-prototype/E2.wav", "sourcePath": "samples/E2.wav", "stringIndex": null, "rootFret": null, "rootMidi": 40, "midiRange": { "min": 33, "max": 42 }, "articulation": "normal", "byteSize": 835268, "sha256": "8d65d005d14fe2466bc10ded126afb4bb78d5f5a527b27429280cba809a37149" },
+    { "id": "freepats-a2", "url": "/audio/guitar-prototype/A2.wav", "sourcePath": "samples/A2.wav", "stringIndex": null, "rootFret": null, "rootMidi": 45, "midiRange": { "min": 43, "max": 47 }, "articulation": "normal", "byteSize": 842822, "sha256": "304d4285d31130061d1e326a28777d57c826c410ffdd6aee3d9a08307d647e41" },
+    { "id": "freepats-d-sharp3", "url": "/audio/guitar-prototype/D-sharp3.wav", "sourcePath": "samples/D#3.wav", "stringIndex": null, "rootFret": null, "rootMidi": 51, "midiRange": { "min": 48, "max": 53 }, "articulation": "normal", "byteSize": 543210, "sha256": "97e369fd3e8acd3ca6a06b5d0cefcc0f222682e65d4c1641a7caf97f1ebb2367" },
+    { "id": "freepats-g-sharp3", "url": "/audio/guitar-prototype/G-sharp3.wav", "sourcePath": "samples/G#3.wav", "stringIndex": null, "rootFret": null, "rootMidi": 56, "midiRange": { "min": 54, "max": 57 }, "articulation": "normal", "byteSize": 808926, "sha256": "7d4cf1982c40ee24946e85b0fd7e244d9e286815ecbe16c3eeab25d1f1e6f27a" },
+    { "id": "freepats-c4", "url": "/audio/guitar-prototype/C4.wav", "sourcePath": "samples/C4.wav", "stringIndex": null, "rootFret": null, "rootMidi": 60, "midiRange": { "min": 58, "max": 61 }, "articulation": "normal", "byteSize": 304662, "sha256": "931cc9cd1104263649b316d7a62818c9c62dd52f1d0b08ee55c087783dc2963f" },
+    { "id": "freepats-d-sharp4", "url": "/audio/guitar-prototype/D-sharp4.wav", "sourcePath": "samples/D#4.wav", "stringIndex": null, "rootFret": null, "rootMidi": 63, "midiRange": { "min": 62, "max": 64 }, "articulation": "normal", "byteSize": 519880, "sha256": "e8bee54517813ff07d92582723790b364a51ad05a536a95478762d648010ad68" },
+    { "id": "freepats-f-sharp4", "url": "/audio/guitar-prototype/F-sharp4.wav", "sourcePath": "samples/F#4.wav", "stringIndex": null, "rootFret": null, "rootMidi": 66, "midiRange": { "min": 65, "max": 67 }, "articulation": "normal", "byteSize": 361812, "sha256": "634bda3435d15f987f80a19b94b9cca1231c76ba36fa599e62e90a3100dfa2f1" },
+    { "id": "freepats-a4", "url": "/audio/guitar-prototype/A4.wav", "sourcePath": "samples/A4.wav", "stringIndex": null, "rootFret": null, "rootMidi": 69, "midiRange": { "min": 68, "max": 70 }, "articulation": "normal", "byteSize": 229440, "sha256": "d0bc223a16dfc1b9e6db1e169c86e59a6da29c53226bddfd46fa56efe3ac9ab3" },
+    { "id": "freepats-c5", "url": "/audio/guitar-prototype/C5.wav", "sourcePath": "samples/C5.wav", "stringIndex": null, "rootFret": null, "rootMidi": 72, "midiRange": { "min": 71, "max": 73 }, "articulation": "normal", "byteSize": 137028, "sha256": "af0132332c2d89af9ef46295776ec868c0d06d6ce3669b1c957fd529d626be49" },
+    { "id": "freepats-d-sharp5", "url": "/audio/guitar-prototype/D-sharp5.wav", "sourcePath": "samples/D#5.wav", "stringIndex": null, "rootFret": null, "rootMidi": 75, "midiRange": { "min": 74, "max": 76 }, "articulation": "normal", "byteSize": 164284, "sha256": "970f1367ad2d84675fe13750926748b761d83e552c3bd0d6a946d5fe456b299f" },
+    { "id": "freepats-f-sharp5", "url": "/audio/guitar-prototype/F-sharp5.wav", "sourcePath": "samples/F#5.wav", "stringIndex": null, "rootFret": null, "rootMidi": 78, "midiRange": { "min": 77, "max": 79 }, "articulation": "normal", "byteSize": 238598, "sha256": "cf13474d5fa792f0d6862efa5d799d86144de72435f54d704b00b2e77b4ed064" },
+    { "id": "freepats-a5", "url": "/audio/guitar-prototype/A5.wav", "sourcePath": "samples/A5.wav", "stringIndex": null, "rootFret": null, "rootMidi": 81, "midiRange": { "min": 80, "max": 82 }, "articulation": "normal", "byteSize": 231976, "sha256": "6f6512e606323576a8e4c780e941a01742d4a5466b4dae0c755dfc7c80c299c4" },
+    { "id": "freepats-c6", "url": "/audio/guitar-prototype/C6.wav", "sourcePath": "samples/C6.wav", "stringIndex": null, "rootFret": null, "rootMidi": 84, "midiRange": { "min": 83, "max": 86 }, "articulation": "normal", "byteSize": 130210, "sha256": "ca61c65edb6c9c921ca36dc8c67056eace04b1e6c7afbb279209a9cfdec66633" }
+  ]
+}
